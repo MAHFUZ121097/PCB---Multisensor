@@ -11,10 +11,13 @@
 4. **TH** - Temperature and Humidity Sensor
 
 ### Key Features:
-- Multisensor PCB layout for real-time physiological data acquisition
+- Multisensor PCB layout (2-layer) for real-time physiological data acquisition
 - Compact dimensions: 60 mm x 50 mm
 - Modular design for easy integration into wearable or portable devices
 - Designed for medical and research applications
+
+### Design Environment:
+- KiCad EDA 6.0.10
 
 ## Dimensions
 
@@ -23,20 +26,15 @@
 ## Sensors Overview
 
 ### ECG Sensor (Ec)
-- Captures electrical activity of the heart, providing valuable data for cardiac monitoring.
+- AD8232 chip: Captures electrical activity of the heart, includes instrumentation amplifier.
   
 ### IMU Sensor (I)
-- Includes accelerometer and gyroscope, used for motion tracking and orientation measurement.
+- MPU6050 chip: Inertial measurement unit (IMU) to capture breathing patterns, includes accelerometer and gyroscope.
 
 ### Pulse Oximeter Sensor (Po)
-- Measures oxygen saturation in the blood and heart rate using photoplethysmography (PPG).
+- Max30101 chip: Captures LED data to measure pulse rate and oxygen saturation, includes infrared (IR) and red LED.
 
 ### Temperature and Humidity Sensor (TH)
-- Records ambient temperature and humidity for environmental context in physiological measurements.
+- Si7021 chip: Records core body temperature and humidity measurements.
 
-## Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/PCB-Multisensor.git
 
