@@ -12,6 +12,7 @@
 
 ### Key Features:
 - Multisensor PCB layout (2-layer) for real-time physiological data acquisition
+- Operating voltage: ~3.3 V
 - Compact dimensions: 60 mm x 50 mm
 - Modular design for easy integration into wearable or portable devices
 - Designed for medical and research applications
