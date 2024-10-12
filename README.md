@@ -5,7 +5,7 @@
 **EcIPoTH** is a custom-designed Printed Circuit Board (PCB) intended for the acquisition of multiple physiological signals. This versatile board integrates various sensors to measure and track vital parameters. It is designed for research and development in physiological signal monitoring, and can be easily adapted for a wide range of applications.
 
 ### PCB Image
-![PCB Design](Diagrams/EcIPoTH_device.JPG)
+![PCB Design](EcIPoTH/Diagrams/EcIPoTH_device.JPG)
 
 ### Sensors Included:
 1. **Ec** - Electrocardiogram (ECG) Sensor
